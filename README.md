@@ -1,5 +1,5 @@
 # Starvation-Free-Reader-Writer-Problem Solution
-(*Name:Kishore KG, Enrollment No:17116033*)
+**(*Name:Kishore KG, Enrollment No:17116033*)**
 
 This repository contains a .cpp file named **starv-free.cpp** which is used to demonstrate a starvation free solution for the classical Reader-Wirter problem in process synchronisation. The program can be executed by runing the above cpp file using any ide or from the comand line.
 
