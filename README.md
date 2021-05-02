@@ -127,4 +127,4 @@ Similar to reader code only change is semaphore **in**.
 
 # Conclusion
 
-We can see from the output that neither reader nor wirter is given priority. Even after the reader-6 is counted the writer-1 is counted,before reader-6 has read. Hence solution is starvation free.
+We can see from the output that neither reader nor wirter is given priority. All the threads(readers and writers) are created parallely without any dealay. A writers have done the writing even if the readers are waiting. Similarly readers didn't wait for the wirters. Even after the reader-6 is counted the writer-1 is counted,before reader-6 has read. This is not the case with solution with reader having priority, where if a reader had entered the queue it is given priority. Here writer has done its job before even if a reader is present. Hence solution is starvation free.
