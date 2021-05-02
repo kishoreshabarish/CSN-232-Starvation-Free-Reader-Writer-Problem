@@ -1,4 +1,5 @@
 # Starvation-Free-Reader-Writer-Problem Solution
+(*Name:Kishore KG, Enrollment No:17116033)
 This repository contains a .cpp file named **starv-free.cpp** which is used to demonstrate a starvation free solution for the classical Reader-Wirter problem in process synchronisation. The program can be executed by runing the above cpp file using any ide or from the comand line.
 
 The program contains two functions-reader and writer which implement the corresponding the functionalities. 15 reader threads and 3 writer threads have been used to demonstrate the solution. POSIX threads are used from the **pthread.h** library. 
